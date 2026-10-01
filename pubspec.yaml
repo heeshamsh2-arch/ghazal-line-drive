@@ -1,0 +1,27 @@
+name: ghazal_line
+description: Ghazal Line order management with manager-owned Google Drive backend
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  file_picker: 13.1.0
+  image_picker: 1.2.3
+  path: 1.9.1
+  provider: 6.1.5+1
+  shared_preferences: 2.5.5
+  url_launcher: 6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
